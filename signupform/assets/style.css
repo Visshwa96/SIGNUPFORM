@@ -1,0 +1,86 @@
+/* CSS Document */
+body{
+background-color:#20222b;
+width:1332px;
+height:803px;
+
+  color: #8e8e93;
+  direction: ltr;
+  overflow-x: hidden;
+
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased !important;
+}
+#signform
+{
+width:1332px;
+height:803px;
+background-color:#20222b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}	
+
+#sign_left
+{
+background-color:red;
+width:666px;
+height:803px;
+float:left;
+}
+
+#sign_right
+{
+background-color:black;
+width:666px;
+height:803px;
+float:left;
+}
+
+#sign_box
+{
+width:387px;
+height:421px;
+background-color:#000000;
+border:#404040 solid 1px;
+
+
+    color:#FFFFFF;
+  text-align:center;
+  margin-left:140px;
+  margin-top:190px;
+ font-size:18px;
+ padding:10px;
+
+
+
+}
+#email
+{
+input[type="text"], textarea 
+width: 350px;
+height:40px;
+background-color:#000000;
+padding:10px;
+border:#404040 solid 1px;
+border-radius:6px;
+float:left;
+text-align:left;
+font-size:14px;
+}
+
+#otp
+{
+
+width: 350px;
+height:40px;
+background-color:#6699FF;
+border:#404040 solid 1px;
+border-radius:6px;
+float:left;
+}
